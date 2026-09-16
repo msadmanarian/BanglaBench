@@ -18,3 +18,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 13:10:46`: viz: generate Figure 5 ERASER explanation faithfulness bar charts
 - `2026-09-16 13:41:34`: annotation: log dual independent annotations for batch 5 (sci-tech)
 - `2026-09-16 16:09:59`: eval(stats): generate 1000-iteration bootstrap 95% confidence intervals
+- `2026-09-16 16:12:05`: retrieval(rag): test uncertainty thresholding when evidence is absent
