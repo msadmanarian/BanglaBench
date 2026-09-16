@@ -31,3 +31,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 21:13:53`: models(transformers): scaffold BanglaBERT electra-discriminator training graph
 - `2026-09-16 21:34:10`: models(transformers): configure MuRIL multilingual Indic model checkpointing
 - `2026-09-16 21:38:22`: annotation: log dual independent annotations for batch 6 (social)
+- `2026-09-16 21:39:42`: models(baseline): configure Multinomial Naive Bayes with word+char n-grams
