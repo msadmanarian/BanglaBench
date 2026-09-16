@@ -9,3 +9,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 10:29:44`: eval(metrics): compute multi-class Brier score for probability vectors
 - `2026-09-16 10:35:21`: models(llm): implement zero-shot structured JSON verification prompt
 - `2026-09-16 10:44:09`: models(baseline): tune L2 regularization C parameter for LinearSVC
+- `2026-09-16 10:54:48`: robustness(typo): implement keyboard-adjacent character swap generator
