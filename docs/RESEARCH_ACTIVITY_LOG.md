@@ -15,3 +15,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 12:43:22`: robustness(paraphrase): implement domain-preserving synonym replacer
 - `2026-09-16 12:48:38`: models(llm): add fallback parser for non-conforming markdown fences
 - `2026-09-16 12:58:51`: data(normalizer): refine Unicode NFC normalization for Bengali conjuncts
+- `2026-09-16 13:10:46`: viz: generate Figure 5 ERASER explanation faithfulness bar charts
