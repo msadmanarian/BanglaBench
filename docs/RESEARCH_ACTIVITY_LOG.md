@@ -11,3 +11,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 10:44:09`: models(baseline): tune L2 regularization C parameter for LinearSVC
 - `2026-09-16 10:54:48`: robustness(typo): implement keyboard-adjacent character swap generator
 - `2026-09-16 11:22:06`: data(splits): construct source-disjoint partitions for Split C
+- `2026-09-16 12:23:24`: data(audit): verify zero ID leakage across all train-test partition pairs
