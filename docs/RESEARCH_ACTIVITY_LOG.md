@@ -21,3 +21,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 16:12:05`: retrieval(rag): test uncertainty thresholding when evidence is absent
 - `2026-09-16 17:37:53`: eval(stats): calculate McNemar paired test with continuity correction
 - `2026-09-16 18:18:36`: models(baseline): evaluate Random Forest ensemble on sparse TF-IDF vectors
+- `2026-09-16 18:34:45`: data(schema): validate claims against 5-class taxonomic JSON schema
