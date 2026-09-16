@@ -6,3 +6,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 09:27:37`: models(transformers): add XLM-RoBERTa cross-lingual sequence classification
 - `2026-09-16 09:30:51`: data(curation): ingest verified health claims from DGDA gazettes
 - `2026-09-16 09:32:48`: annotation: compute Cohen's kappa agreement statistic across annotators
+- `2026-09-16 10:29:44`: eval(metrics): compute multi-class Brier score for probability vectors
