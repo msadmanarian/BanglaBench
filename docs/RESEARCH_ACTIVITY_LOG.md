@@ -22,3 +22,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 17:37:53`: eval(stats): calculate McNemar paired test with continuity correction
 - `2026-09-16 18:18:36`: models(baseline): evaluate Random Forest ensemble on sparse TF-IDF vectors
 - `2026-09-16 18:34:45`: data(schema): validate claims against 5-class taxonomic JSON schema
+- `2026-09-16 19:04:02`: retrieval(bm25): implement native Okapi BM25 passage indexation
