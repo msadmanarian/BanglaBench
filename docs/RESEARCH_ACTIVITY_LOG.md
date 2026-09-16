@@ -28,3 +28,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 20:05:55`: data(normalizer): handle zero-width joiner (ZWJ) stripping consistently
 - `2026-09-16 20:32:24`: annotation: update annotation guidelines with detailed exclusion criteria
 - `2026-09-16 20:58:29`: analysis(sources): analyze source-specific lexical shortcut exploitation
+- `2026-09-16 21:13:53`: models(transformers): scaffold BanglaBERT electra-discriminator training graph
