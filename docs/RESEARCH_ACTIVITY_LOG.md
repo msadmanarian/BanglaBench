@@ -26,3 +26,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 19:16:49`: robustness(framing): add deceptive authority marker insertion generator
 - `2026-09-16 19:54:05`: retrieval(bm25): optimize document frequency thresholds for Bengali tokens
 - `2026-09-16 20:05:55`: data(normalizer): handle zero-width joiner (ZWJ) stripping consistently
+- `2026-09-16 20:32:24`: annotation: update annotation guidelines with detailed exclusion criteria
