@@ -13,3 +13,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-16 11:22:06`: data(splits): construct source-disjoint partitions for Split C
 - `2026-09-16 12:23:24`: data(audit): verify zero ID leakage across all train-test partition pairs
 - `2026-09-16 12:43:22`: robustness(paraphrase): implement domain-preserving synonym replacer
+- `2026-09-16 12:48:38`: models(llm): add fallback parser for non-conforming markdown fences
