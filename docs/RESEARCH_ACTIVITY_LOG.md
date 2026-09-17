@@ -37,3 +37,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-17 11:47:20`: retrieval(rag): build end-to-end evidence citation generator
 - `2026-09-17 11:55:17`: data(curation): collect viral social infrastructure claims on Padma bridge
 - `2026-09-17 12:44:13`: viz: generate Figure 1 domain and label distribution plots
+- `2026-09-17 13:10:56`: docs(paper): draft Section 7 limitations and ethical considerations
