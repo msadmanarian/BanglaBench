@@ -44,3 +44,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-17 16:53:29`: annotation: log dual independent annotations for batch 2 (health)
 - `2026-09-17 18:06:16`: annotation: log dual independent annotations for batch 1 (politics)
 - `2026-09-17 18:30:15`: docs(paper): draft Section 1 introduction and research motivation
+- `2026-09-17 19:23:34`: models(baseline): audit Linear SVM majority class prediction bias
