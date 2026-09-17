@@ -48,3 +48,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-17 19:50:47`: docs(paper): draft Section 6 discussion on source-leakage illusion
 - `2026-09-17 19:55:27`: docs(paper): compile unified publication manuscript in paper.md
 - `2026-09-17 20:03:25`: robustness(codemix): construct English-Bengali digital loanword dictionary
+- `2026-09-17 20:39:14`: annotation: log dual independent annotations for batch 3 (finance)
