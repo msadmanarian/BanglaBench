@@ -47,3 +47,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-17 19:23:34`: models(baseline): audit Linear SVM majority class prediction bias
 - `2026-09-17 19:50:47`: docs(paper): draft Section 6 discussion on source-leakage illusion
 - `2026-09-17 19:55:27`: docs(paper): compile unified publication manuscript in paper.md
+- `2026-09-17 20:03:25`: robustness(codemix): construct English-Bengali digital loanword dictionary
