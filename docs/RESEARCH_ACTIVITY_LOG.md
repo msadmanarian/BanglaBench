@@ -40,3 +40,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-17 13:10:56`: docs(paper): draft Section 7 limitations and ethical considerations
 - `2026-09-17 13:36:20`: annotation: conduct structured adjudication for borderline misleading claims
 - `2026-09-17 14:32:41`: eval(faithfulness): analyze rationale prediction retention rates
+- `2026-09-17 15:28:25`: docs(paper): draft Section 5 empirical results and breakdown
