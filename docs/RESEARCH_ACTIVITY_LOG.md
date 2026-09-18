@@ -85,3 +85,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 20:38:14`: data(curation): audit financial inflation rumors against central bank data
 - `2026-09-18 21:16:21`: annotation: verify Landis-Koch 'almost perfect agreement' (kappa=0.912)
 - `2026-09-18 21:18:37`: robustness(defense): develop phonetic Banglish-to-Bengali reverser
+- `2026-09-18 21:19:37`: robustness(unicode): add non-normalized vowel sign perturbation logic
