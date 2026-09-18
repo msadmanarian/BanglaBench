@@ -75,3 +75,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 16:59:35`: retrieval(hybrid): interpolate BM25 sparse scores with dense projections
 - `2026-09-18 17:32:16`: robustness(defense): benchmark +126.8% F1 recovery under phonetic defense
 - `2026-09-18 17:39:55`: eval(faithfulness): execute ERASER sufficiency and comprehensiveness tests
+- `2026-09-18 18:01:27`: annotation: resolve opinion vs unverifiable boundary edge cases
