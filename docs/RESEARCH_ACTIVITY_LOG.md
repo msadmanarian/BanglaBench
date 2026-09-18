@@ -72,3 +72,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 16:12:48`: docs(paper): draft Section 4 experimental methodology and splits
 - `2026-09-18 16:25:49`: annotation: document adjudication protocols in 05_Annotation directory
 - `2026-09-18 16:44:08`: docs(paper): draft Section 3 dataset collection and annotation rigor
+- `2026-09-18 16:59:35`: retrieval(hybrid): interpolate BM25 sparse scores with dense projections
