@@ -61,3 +61,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 10:57:49`: repro: validate environment specifications in requirements.txt
 - `2026-09-18 11:41:33`: data(curation): sample viral political claims from public media archives
 - `2026-09-18 12:02:38`: models(llm): test few-shot chain-of-verification templates in Bengali
+- `2026-09-18 13:17:31`: data(curation): collect disaster management warnings for Cyclone Remal
