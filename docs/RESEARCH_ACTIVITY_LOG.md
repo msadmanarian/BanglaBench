@@ -56,3 +56,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 09:03:53`: repro: verify one-command reproduction script run_all.sh
 - `2026-09-18 09:11:38`: models(transformers): setup class-weighted cross-entropy loss for imbalance
 - `2026-09-18 10:05:09`: analysis(domains): evaluate cross-domain transfer degradation
+- `2026-09-18 10:48:48`: models(baseline): implement Logistic Regression multinomial loss
