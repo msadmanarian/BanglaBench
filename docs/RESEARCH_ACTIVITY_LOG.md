@@ -63,3 +63,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 12:02:38`: models(llm): test few-shot chain-of-verification templates in Bengali
 - `2026-09-18 13:17:31`: data(curation): collect disaster management warnings for Cyclone Remal
 - `2026-09-18 13:29:07`: retrieval(rag): evaluate recall@3 hit rate across benchmark partitions
+- `2026-09-18 13:33:56`: retrieval(hybrid): implement character n-gram cosine similarity reranker
