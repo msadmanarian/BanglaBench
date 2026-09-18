@@ -83,3 +83,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 19:56:28`: docs(thesis): compile comprehensive thesis defense Q&A preparation
 - `2026-09-18 20:36:07`: data(dedup): run character 3-gram Jaccard deduplication audit
 - `2026-09-18 20:38:14`: data(curation): audit financial inflation rumors against central bank data
+- `2026-09-18 21:16:21`: annotation: verify Landis-Koch 'almost perfect agreement' (kappa=0.912)
