@@ -65,3 +65,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 13:29:07`: retrieval(rag): evaluate recall@3 hit rate across benchmark partitions
 - `2026-09-18 13:33:56`: retrieval(hybrid): implement character n-gram cosine similarity reranker
 - `2026-09-18 14:00:15`: data(normalizer): add Dari and double-dari punctuation standardization
+- `2026-09-18 14:05:15`: viz: generate Figure 3 adversarial robustness drop matrix
