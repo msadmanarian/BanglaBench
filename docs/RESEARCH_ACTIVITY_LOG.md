@@ -76,3 +76,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 17:32:16`: robustness(defense): benchmark +126.8% F1 recovery under phonetic defense
 - `2026-09-18 17:39:55`: eval(faithfulness): execute ERASER sufficiency and comprehensiveness tests
 - `2026-09-18 18:01:27`: annotation: resolve opinion vs unverifiable boundary edge cases
+- `2026-09-18 18:09:59`: analysis(errors): formulate 10-category error taxonomy E1-E10
