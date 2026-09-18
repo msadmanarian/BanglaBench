@@ -67,3 +67,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 14:00:15`: data(normalizer): add Dari and double-dari punctuation standardization
 - `2026-09-18 14:05:15`: viz: generate Figure 3 adversarial robustness drop matrix
 - `2026-09-18 14:48:05`: data(splits): generate cross-domain disjoint partition for Split B
+- `2026-09-18 15:30:46`: analysis(temporal): measure concept drift on post-2023 claim evaluation
