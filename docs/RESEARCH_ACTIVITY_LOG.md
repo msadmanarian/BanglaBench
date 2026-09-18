@@ -54,3 +54,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-17 20:58:55`: annotation: log dual independent annotations for batch 4 (disaster)
 - `2026-09-17 21:26:09`: models(baseline): implement Linear SVM with calibrated decision margins
 - `2026-09-18 09:03:53`: repro: verify one-command reproduction script run_all.sh
+- `2026-09-18 09:11:38`: models(transformers): setup class-weighted cross-entropy loss for imbalance
