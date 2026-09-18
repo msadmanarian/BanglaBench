@@ -70,3 +70,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 15:30:46`: analysis(temporal): measure concept drift on post-2023 claim evaluation
 - `2026-09-18 15:34:52`: data(splits): establish chronological cutoff at 2024-01-01 for Split D
 - `2026-09-18 16:12:48`: docs(paper): draft Section 4 experimental methodology and splits
+- `2026-09-18 16:25:49`: annotation: document adjudication protocols in 05_Annotation directory
