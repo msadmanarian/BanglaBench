@@ -64,3 +64,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 13:17:31`: data(curation): collect disaster management warnings for Cyclone Remal
 - `2026-09-18 13:29:07`: retrieval(rag): evaluate recall@3 hit rate across benchmark partitions
 - `2026-09-18 13:33:56`: retrieval(hybrid): implement character n-gram cosine similarity reranker
+- `2026-09-18 14:00:15`: data(normalizer): add Dari and double-dari punctuation standardization
