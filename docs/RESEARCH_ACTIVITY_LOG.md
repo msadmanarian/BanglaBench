@@ -103,3 +103,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 14:38:28`: docs(presentation): structure 16-slide academic defense presentation
 - `2026-09-19 15:02:06`: data(normalizer): add Dari and double-dari punctuation standardization
 - `2026-09-19 15:56:41`: docs(cards): complete model cards for Linear SVM and RAG verifier
+- `2026-09-19 16:21:53`: data(curation): sample viral political claims from public media archives
