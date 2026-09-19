@@ -98,3 +98,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 12:39:12`: docs(paper): draft Section 3 dataset collection and annotation rigor
 - `2026-09-19 12:54:28`: annotation: log dual independent annotations for batch 6 (social)
 - `2026-09-19 13:03:27`: models(baseline): implement Linear SVM with calibrated decision margins
+- `2026-09-19 13:08:17`: viz: generate Figure 1 domain and label distribution plots
