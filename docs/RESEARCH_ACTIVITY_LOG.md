@@ -113,3 +113,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 19:46:00`: analysis(domains): evaluate cross-domain transfer degradation
 - `2026-09-19 20:14:16`: docs(paper): compile unified publication manuscript in paper.md
 - `2026-09-19 20:25:50`: viz: generate Figure 2 cross-split generalization comparison charts
+- `2026-09-19 21:04:29`: annotation: document adjudication protocols in 05_Annotation directory
