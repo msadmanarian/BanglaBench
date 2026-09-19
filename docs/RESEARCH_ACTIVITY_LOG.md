@@ -107,3 +107,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 17:04:05`: models(llm): test few-shot chain-of-verification templates in Bengali
 - `2026-09-19 17:17:10`: analysis(sources): analyze source-specific lexical shortcut exploitation
 - `2026-09-19 17:46:31`: docs(paper): draft Section 5 empirical results and breakdown
+- `2026-09-19 18:12:13`: analysis(errors): formulate 10-category error taxonomy E1-E10
