@@ -96,3 +96,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 11:15:51`: annotation: log dual independent annotations for batch 1 (politics)
 - `2026-09-19 12:14:15`: models(baseline): configure Multinomial Naive Bayes with word+char n-grams
 - `2026-09-19 12:39:12`: docs(paper): draft Section 3 dataset collection and annotation rigor
+- `2026-09-19 12:54:28`: annotation: log dual independent annotations for batch 6 (social)
