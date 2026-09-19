@@ -101,3 +101,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 13:08:17`: viz: generate Figure 1 domain and label distribution plots
 - `2026-09-19 13:45:15`: data(schema): validate claims against 5-class taxonomic JSON schema
 - `2026-09-19 14:38:28`: docs(presentation): structure 16-slide academic defense presentation
+- `2026-09-19 15:02:06`: data(normalizer): add Dari and double-dari punctuation standardization
