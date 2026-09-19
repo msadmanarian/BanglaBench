@@ -94,3 +94,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 10:36:03`: robustness(framing): add deceptive authority marker insertion generator
 - `2026-09-19 10:39:46`: retrieval(rag): build end-to-end evidence citation generator
 - `2026-09-19 11:15:51`: annotation: log dual independent annotations for batch 1 (politics)
+- `2026-09-19 12:14:15`: models(baseline): configure Multinomial Naive Bayes with word+char n-grams
