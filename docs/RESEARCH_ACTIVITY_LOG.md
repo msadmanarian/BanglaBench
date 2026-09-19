@@ -93,3 +93,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 10:12:41`: data(splits): establish chronological cutoff at 2024-01-01 for Split D
 - `2026-09-19 10:36:03`: robustness(framing): add deceptive authority marker insertion generator
 - `2026-09-19 10:39:46`: retrieval(rag): build end-to-end evidence citation generator
+- `2026-09-19 11:15:51`: annotation: log dual independent annotations for batch 1 (politics)
