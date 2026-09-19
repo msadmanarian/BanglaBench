@@ -88,3 +88,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-18 21:19:37`: robustness(unicode): add non-normalized vowel sign perturbation logic
 - `2026-09-18 21:48:00`: viz: generate Figure 2 cross-split generalization comparison charts
 - `2026-09-19 09:32:27`: docs(paper): draft Section 2 systematic literature review and gap
+- `2026-09-19 10:00:29`: data(normalizer): refine Unicode NFC normalization for Bengali conjuncts
