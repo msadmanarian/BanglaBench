@@ -100,3 +100,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 13:03:27`: models(baseline): implement Linear SVM with calibrated decision margins
 - `2026-09-19 13:08:17`: viz: generate Figure 1 domain and label distribution plots
 - `2026-09-19 13:45:15`: data(schema): validate claims against 5-class taxonomic JSON schema
+- `2026-09-19 14:38:28`: docs(presentation): structure 16-slide academic defense presentation
