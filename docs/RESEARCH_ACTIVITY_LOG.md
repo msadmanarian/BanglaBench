@@ -109,3 +109,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 17:46:31`: docs(paper): draft Section 5 empirical results and breakdown
 - `2026-09-19 18:12:13`: analysis(errors): formulate 10-category error taxonomy E1-E10
 - `2026-09-19 18:44:57`: data(splits): generate cross-domain disjoint partition for Split B
+- `2026-09-19 18:50:10`: eval(stats): calculate McNemar paired test with continuity correction
