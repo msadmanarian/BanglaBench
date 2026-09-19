@@ -90,3 +90,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 09:32:27`: docs(paper): draft Section 2 systematic literature review and gap
 - `2026-09-19 10:00:29`: data(normalizer): refine Unicode NFC normalization for Bengali conjuncts
 - `2026-09-19 10:09:43`: repro: validate environment specifications in requirements.txt
+- `2026-09-19 10:12:41`: data(splits): establish chronological cutoff at 2024-01-01 for Split D
