@@ -92,3 +92,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 10:09:43`: repro: validate environment specifications in requirements.txt
 - `2026-09-19 10:12:41`: data(splits): establish chronological cutoff at 2024-01-01 for Split D
 - `2026-09-19 10:36:03`: robustness(framing): add deceptive authority marker insertion generator
+- `2026-09-19 10:39:46`: retrieval(rag): build end-to-end evidence citation generator
