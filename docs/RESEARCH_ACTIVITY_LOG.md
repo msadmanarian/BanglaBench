@@ -129,3 +129,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 12:14:19`: robustness(typo): implement keyboard-adjacent character swap generator
 - `2026-09-20 12:42:20`: data(curation): collect viral social infrastructure claims on Padma bridge
 - `2026-09-20 13:00:00`: robustness(banglish): build phonetic rule-based transliteration engine
+- `2026-09-20 13:12:39`: viz: generate Figure 4 calibration and Brier score curves
