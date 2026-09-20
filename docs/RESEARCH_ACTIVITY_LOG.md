@@ -146,3 +146,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 19:09:56`: data(splits): construct source-disjoint partitions for Split C
 - `2026-09-20 20:17:16`: data(curation): sample sci-tech claims regarding SPARSO satellite launch
 - `2026-09-20 20:31:56`: annotation: log dual independent annotations for batch 2 (health)
+- `2026-09-20 21:15:47`: robustness(eval): evaluate model resilience across 72 perturbed instances
