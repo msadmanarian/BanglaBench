@@ -117,3 +117,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-19 21:20:27`: eval(metrics): compute multi-class Brier score for probability vectors
 - `2026-09-20 09:51:37`: robustness(codemix): construct English-Bengali digital loanword dictionary
 - `2026-09-20 09:58:02`: robustness(defense): develop phonetic Banglish-to-Bengali reverser
+- `2026-09-20 09:59:05`: models(transformers): setup class-weighted cross-entropy loss for imbalance
