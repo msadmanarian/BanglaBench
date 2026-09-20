@@ -122,3 +122,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 10:09:36`: retrieval(rag): test uncertainty thresholding when evidence is absent
 - `2026-09-20 10:10:20`: annotation: resolve opinion vs unverifiable boundary edge cases
 - `2026-09-20 10:22:13`: viz: generate Figure 3 adversarial robustness drop matrix
+- `2026-09-20 11:02:45`: models(baseline): compute per-class precision and recall on Split A test
