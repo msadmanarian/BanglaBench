@@ -143,3 +143,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 18:43:39`: repro: run automated quality audit script with zero errors
 - `2026-09-20 18:53:00`: retrieval(rag): evaluate recall@3 hit rate across benchmark partitions
 - `2026-09-20 18:58:59`: annotation: log dual independent annotations for batch 3 (finance)
+- `2026-09-20 19:09:56`: data(splits): construct source-disjoint partitions for Split C
