@@ -120,3 +120,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 09:59:05`: models(transformers): setup class-weighted cross-entropy loss for imbalance
 - `2026-09-20 10:02:42`: robustness(paraphrase): implement domain-preserving synonym replacer
 - `2026-09-20 10:09:36`: retrieval(rag): test uncertainty thresholding when evidence is absent
+- `2026-09-20 10:10:20`: annotation: resolve opinion vs unverifiable boundary edge cases
