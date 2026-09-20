@@ -149,3 +149,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 21:15:47`: robustness(eval): evaluate model resilience across 72 perturbed instances
 - `2026-09-20 21:28:09`: models(baseline): implement Logistic Regression multinomial loss
 - `2026-09-20 21:33:18`: eval(stats): generate 1000-iteration bootstrap 95% confidence intervals
+- `2026-09-20 21:45:13`: docs(paper): draft Section 6 discussion on source-leakage illusion
