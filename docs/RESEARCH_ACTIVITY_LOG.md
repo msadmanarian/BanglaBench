@@ -138,3 +138,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 17:34:56`: models(transformers): add XLM-RoBERTa cross-lingual sequence classification
 - `2026-09-20 17:40:23`: retrieval(bm25): implement native Okapi BM25 passage indexation
 - `2026-09-20 18:03:10`: analysis(temporal): measure concept drift on post-2023 claim evaluation
+- `2026-09-20 18:15:53`: repro: verify one-command reproduction script run_all.sh
