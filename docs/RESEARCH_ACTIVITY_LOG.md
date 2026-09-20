@@ -134,3 +134,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 14:21:34`: models(baseline): tune L2 regularization C parameter for LinearSVC
 - `2026-09-20 15:53:32`: models(transformers): scaffold BanglaBERT electra-discriminator training graph
 - `2026-09-20 17:08:08`: retrieval(hybrid): implement character n-gram cosine similarity reranker
+- `2026-09-20 17:18:56`: data(dedup): run character 3-gram Jaccard deduplication audit
