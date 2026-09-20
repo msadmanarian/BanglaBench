@@ -136,3 +136,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-20 17:08:08`: retrieval(hybrid): implement character n-gram cosine similarity reranker
 - `2026-09-20 17:18:56`: data(dedup): run character 3-gram Jaccard deduplication audit
 - `2026-09-20 17:34:56`: models(transformers): add XLM-RoBERTa cross-lingual sequence classification
+- `2026-09-20 17:40:23`: retrieval(bm25): implement native Okapi BM25 passage indexation
