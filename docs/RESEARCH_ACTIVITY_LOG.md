@@ -162,3 +162,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-21 13:30:02`: models(baseline): audit Linear SVM majority class prediction bias
 - `2026-09-21 13:43:23`: docs(paper): draft Section 4 experimental methodology and splits
 - `2026-09-21 14:41:55`: data(curation): ingest verified health claims from DGDA gazettes
+- `2026-09-21 14:51:57`: models(llm): add fallback parser for non-conforming markdown fences
