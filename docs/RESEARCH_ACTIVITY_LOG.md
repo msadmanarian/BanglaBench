@@ -161,3 +161,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-21 13:28:27`: models(baseline): evaluate Random Forest ensemble on sparse TF-IDF vectors
 - `2026-09-21 13:30:02`: models(baseline): audit Linear SVM majority class prediction bias
 - `2026-09-21 13:43:23`: docs(paper): draft Section 4 experimental methodology and splits
+- `2026-09-21 14:41:55`: data(curation): ingest verified health claims from DGDA gazettes
