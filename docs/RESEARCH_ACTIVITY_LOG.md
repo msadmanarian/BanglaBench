@@ -159,3 +159,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-21 12:28:53`: robustness(defense): benchmark +126.8% F1 recovery under phonetic defense
 - `2026-09-21 13:17:37`: annotation: conduct structured adjudication for borderline misleading claims
 - `2026-09-21 13:28:27`: models(baseline): evaluate Random Forest ensemble on sparse TF-IDF vectors
+- `2026-09-21 13:30:02`: models(baseline): audit Linear SVM majority class prediction bias
