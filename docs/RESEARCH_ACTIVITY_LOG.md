@@ -164,3 +164,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-21 14:41:55`: data(curation): ingest verified health claims from DGDA gazettes
 - `2026-09-21 14:51:57`: models(llm): add fallback parser for non-conforming markdown fences
 - `2026-09-21 16:13:13`: docs(paper): draft Section 7 limitations and ethical considerations
+- `2026-09-21 17:20:15`: annotation: log dual independent annotations for batch 5 (sci-tech)
