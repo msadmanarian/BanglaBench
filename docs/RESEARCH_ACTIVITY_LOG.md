@@ -155,3 +155,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-21 09:52:27`: eval(faithfulness): analyze rationale prediction retention rates
 - `2026-09-21 10:34:00`: annotation: log dual independent annotations for batch 4 (disaster)
 - `2026-09-21 11:13:04`: annotation: compute Cohen's kappa agreement statistic across annotators
+- `2026-09-21 11:45:34`: data(curation): collect disaster management warnings for Cyclone Remal
