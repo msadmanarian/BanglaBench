@@ -168,3 +168,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-21 17:37:22`: docs(paper): draft Section 2 systematic literature review and gap
 - `2026-09-21 19:49:56`: eval(faithfulness): execute ERASER sufficiency and comprehensiveness tests
 - `2026-09-21 19:52:39`: eval(metrics): implement Expected Calibration Error (ECE) with 10 bins
+- `2026-09-21 20:43:09`: annotation: verify Landis-Koch 'almost perfect agreement' (kappa=0.912)
