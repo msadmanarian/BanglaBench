@@ -200,3 +200,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 15:49:19`: annotation: verify Landis-Koch 'almost perfect agreement' (kappa=0.912)
 - `2026-09-22 16:01:13`: models(transformers): add XLM-RoBERTa cross-lingual sequence classification
 - `2026-09-22 16:02:50`: robustness(paraphrase): implement domain-preserving synonym replacer
+- `2026-09-22 16:51:38`: eval(metrics): compute multi-class Brier score for probability vectors
