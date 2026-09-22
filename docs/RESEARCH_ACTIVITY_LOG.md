@@ -196,3 +196,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 14:58:42`: eval(faithfulness): analyze rationale prediction retention rates
 - `2026-09-22 14:59:43`: annotation: update annotation guidelines with detailed exclusion criteria
 - `2026-09-22 15:31:39`: robustness(unicode): add non-normalized vowel sign perturbation logic
+- `2026-09-22 15:48:25`: data(curation): ingest verified health claims from DGDA gazettes
