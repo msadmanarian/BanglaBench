@@ -175,3 +175,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 09:39:27`: models(llm): implement zero-shot structured JSON verification prompt
 - `2026-09-22 10:11:46`: models(transformers): configure MuRIL multilingual Indic model checkpointing
 - `2026-09-22 10:50:27`: docs(paper): draft Section 6 discussion on source-leakage illusion
+- `2026-09-22 10:58:32`: data(audit): verify zero ID leakage across all train-test partition pairs
