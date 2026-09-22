@@ -181,3 +181,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 12:01:02`: eval(metrics): implement Expected Calibration Error (ECE) with 10 bins
 - `2026-09-22 12:03:00`: viz: generate Figure 3 adversarial robustness drop matrix
 - `2026-09-22 12:17:59`: docs(paper): draft Section 1 introduction and research motivation
+- `2026-09-22 12:24:43`: annotation: document adjudication protocols in 05_Annotation directory
