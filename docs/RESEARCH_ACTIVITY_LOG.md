@@ -206,3 +206,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 18:09:43`: annotation: log dual independent annotations for batch 1 (politics)
 - `2026-09-22 19:56:32`: retrieval(rag): test uncertainty thresholding when evidence is absent
 - `2026-09-22 20:15:50`: docs(presentation): structure 16-slide academic defense presentation
+- `2026-09-22 20:25:47`: data(splits): generate cross-domain disjoint partition for Split B
