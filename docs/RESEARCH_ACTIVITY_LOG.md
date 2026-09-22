@@ -203,3 +203,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 16:51:38`: eval(metrics): compute multi-class Brier score for probability vectors
 - `2026-09-22 17:01:20`: models(llm): implement zero-shot structured JSON verification prompt
 - `2026-09-22 17:41:28`: models(transformers): setup class-weighted cross-entropy loss for imbalance
+- `2026-09-22 18:09:43`: annotation: log dual independent annotations for batch 1 (politics)
