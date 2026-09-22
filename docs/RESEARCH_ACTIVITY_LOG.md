@@ -189,3 +189,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 13:27:46`: retrieval(bm25): optimize document frequency thresholds for Bengali tokens
 - `2026-09-22 13:33:32`: retrieval(rag): evaluate recall@3 hit rate across benchmark partitions
 - `2026-09-22 13:45:42`: eval(stats): generate 1000-iteration bootstrap 95% confidence intervals
+- `2026-09-22 14:12:20`: eval(stats): calculate McNemar paired test with continuity correction
