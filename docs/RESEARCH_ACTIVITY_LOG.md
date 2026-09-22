@@ -195,3 +195,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 14:40:12`: viz: generate Figure 1 domain and label distribution plots
 - `2026-09-22 14:58:42`: eval(faithfulness): analyze rationale prediction retention rates
 - `2026-09-22 14:59:43`: annotation: update annotation guidelines with detailed exclusion criteria
+- `2026-09-22 15:31:39`: robustness(unicode): add non-normalized vowel sign perturbation logic
