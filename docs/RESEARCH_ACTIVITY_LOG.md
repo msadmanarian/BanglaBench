@@ -204,3 +204,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 17:01:20`: models(llm): implement zero-shot structured JSON verification prompt
 - `2026-09-22 17:41:28`: models(transformers): setup class-weighted cross-entropy loss for imbalance
 - `2026-09-22 18:09:43`: annotation: log dual independent annotations for batch 1 (politics)
+- `2026-09-22 19:56:32`: retrieval(rag): test uncertainty thresholding when evidence is absent
