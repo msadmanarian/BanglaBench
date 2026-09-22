@@ -201,3 +201,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 16:01:13`: models(transformers): add XLM-RoBERTa cross-lingual sequence classification
 - `2026-09-22 16:02:50`: robustness(paraphrase): implement domain-preserving synonym replacer
 - `2026-09-22 16:51:38`: eval(metrics): compute multi-class Brier score for probability vectors
+- `2026-09-22 17:01:20`: models(llm): implement zero-shot structured JSON verification prompt
