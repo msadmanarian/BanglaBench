@@ -193,3 +193,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 14:36:44`: retrieval(bm25): implement native Okapi BM25 passage indexation
 - `2026-09-22 14:39:35`: annotation: log dual independent annotations for batch 4 (disaster)
 - `2026-09-22 14:40:12`: viz: generate Figure 1 domain and label distribution plots
+- `2026-09-22 14:58:42`: eval(faithfulness): analyze rationale prediction retention rates
