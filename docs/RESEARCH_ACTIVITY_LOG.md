@@ -178,3 +178,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 10:58:32`: data(audit): verify zero ID leakage across all train-test partition pairs
 - `2026-09-22 11:43:24`: docs(paper): draft Section 3 dataset collection and annotation rigor
 - `2026-09-22 11:46:12`: models(baseline): audit Linear SVM majority class prediction bias
+- `2026-09-22 12:01:02`: eval(metrics): implement Expected Calibration Error (ECE) with 10 bins
