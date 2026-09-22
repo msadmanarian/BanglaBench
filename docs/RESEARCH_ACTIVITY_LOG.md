@@ -210,3 +210,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 20:35:42`: data(normalizer): refine Unicode NFC normalization for Bengali conjuncts
 - `2026-09-22 20:58:18`: robustness(defense): develop phonetic Banglish-to-Bengali reverser
 - `2026-09-22 21:32:42`: viz: generate Figure 5 ERASER explanation faithfulness bar charts
+- `2026-09-22 21:34:39`: models(baseline): evaluate Random Forest ensemble on sparse TF-IDF vectors
