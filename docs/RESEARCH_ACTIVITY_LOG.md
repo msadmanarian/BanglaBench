@@ -171,3 +171,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-21 20:43:09`: annotation: verify Landis-Koch 'almost perfect agreement' (kappa=0.912)
 - `2026-09-22 09:24:11`: viz: generate Figure 5 ERASER explanation faithfulness bar charts
 - `2026-09-22 09:25:16`: data(curation): audit financial inflation rumors against central bank data
+- `2026-09-22 09:28:06`: retrieval(bm25): optimize document frequency thresholds for Bengali tokens
