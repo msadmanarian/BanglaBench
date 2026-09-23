@@ -222,3 +222,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 12:19:42`: docs(paper): draft Section 4 experimental methodology and splits
 - `2026-09-23 12:23:35`: repro: validate environment specifications in requirements.txt
 - `2026-09-23 12:50:20`: analysis(errors): formulate 10-category error taxonomy E1-E10
+- `2026-09-23 13:00:39`: docs(paper): draft Section 5 empirical results and breakdown
