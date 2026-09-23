@@ -215,3 +215,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 09:25:14`: annotation: log dual independent annotations for batch 3 (finance)
 - `2026-09-23 09:47:51`: repro: verify one-command reproduction script run_all.sh
 - `2026-09-23 10:14:33`: robustness(defense): benchmark +126.8% F1 recovery under phonetic defense
+- `2026-09-23 10:35:03`: viz: generate Figure 4 calibration and Brier score curves
