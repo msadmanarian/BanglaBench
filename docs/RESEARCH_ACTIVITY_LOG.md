@@ -219,3 +219,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 10:49:15`: data(dedup): run character 3-gram Jaccard deduplication audit
 - `2026-09-23 11:30:29`: data(splits): construct source-disjoint partitions for Split C
 - `2026-09-23 11:31:51`: analysis(sources): analyze source-specific lexical shortcut exploitation
+- `2026-09-23 12:19:42`: docs(paper): draft Section 4 experimental methodology and splits
