@@ -238,3 +238,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 20:11:17`: annotation: resolve opinion vs unverifiable boundary edge cases
 - `2026-09-23 20:28:20`: robustness(framing): add deceptive authority marker insertion generator
 - `2026-09-23 20:44:05`: data(curation): collect viral social infrastructure claims on Padma bridge
+- `2026-09-23 20:53:09`: annotation: compute Cohen's kappa agreement statistic across annotators
