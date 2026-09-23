@@ -234,3 +234,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 17:26:40`: data(schema): validate claims against 5-class taxonomic JSON schema
 - `2026-09-23 18:49:17`: models(transformers): scaffold BanglaBERT electra-discriminator training graph
 - `2026-09-23 19:25:04`: viz: generate Figure 2 cross-split generalization comparison charts
+- `2026-09-23 19:44:18`: data(splits): establish chronological cutoff at 2024-01-01 for Split D
