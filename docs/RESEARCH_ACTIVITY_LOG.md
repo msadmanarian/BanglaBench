@@ -217,3 +217,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 10:14:33`: robustness(defense): benchmark +126.8% F1 recovery under phonetic defense
 - `2026-09-23 10:35:03`: viz: generate Figure 4 calibration and Brier score curves
 - `2026-09-23 10:49:15`: data(dedup): run character 3-gram Jaccard deduplication audit
+- `2026-09-23 11:30:29`: data(splits): construct source-disjoint partitions for Split C
