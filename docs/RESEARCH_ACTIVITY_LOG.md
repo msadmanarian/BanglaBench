@@ -213,3 +213,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-22 21:34:39`: models(baseline): evaluate Random Forest ensemble on sparse TF-IDF vectors
 - `2026-09-23 09:05:49`: robustness(typo): implement keyboard-adjacent character swap generator
 - `2026-09-23 09:25:14`: annotation: log dual independent annotations for batch 3 (finance)
+- `2026-09-23 09:47:51`: repro: verify one-command reproduction script run_all.sh
