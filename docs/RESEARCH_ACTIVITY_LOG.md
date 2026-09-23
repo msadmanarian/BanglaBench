@@ -221,3 +221,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 11:31:51`: analysis(sources): analyze source-specific lexical shortcut exploitation
 - `2026-09-23 12:19:42`: docs(paper): draft Section 4 experimental methodology and splits
 - `2026-09-23 12:23:35`: repro: validate environment specifications in requirements.txt
+- `2026-09-23 12:50:20`: analysis(errors): formulate 10-category error taxonomy E1-E10
