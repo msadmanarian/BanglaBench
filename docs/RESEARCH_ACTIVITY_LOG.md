@@ -237,3 +237,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 19:44:18`: data(splits): establish chronological cutoff at 2024-01-01 for Split D
 - `2026-09-23 20:11:17`: annotation: resolve opinion vs unverifiable boundary edge cases
 - `2026-09-23 20:28:20`: robustness(framing): add deceptive authority marker insertion generator
+- `2026-09-23 20:44:05`: data(curation): collect viral social infrastructure claims on Padma bridge
