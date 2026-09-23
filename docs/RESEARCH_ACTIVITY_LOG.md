@@ -227,3 +227,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 13:10:28`: annotation: log dual independent annotations for batch 6 (social)
 - `2026-09-23 14:17:47`: docs(paper): draft Section 2 systematic literature review and gap
 - `2026-09-23 15:33:28`: models(baseline): implement Logistic Regression multinomial loss
+- `2026-09-23 15:49:48`: models(baseline): tune L2 regularization C parameter for LinearSVC
