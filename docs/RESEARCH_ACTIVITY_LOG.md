@@ -230,3 +230,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 15:49:48`: models(baseline): tune L2 regularization C parameter for LinearSVC
 - `2026-09-23 16:04:53`: models(transformers): configure MuRIL multilingual Indic model checkpointing
 - `2026-09-23 16:46:49`: analysis(domains): evaluate cross-domain transfer degradation
+- `2026-09-23 17:06:33`: models(baseline): compute per-class precision and recall on Split A test
