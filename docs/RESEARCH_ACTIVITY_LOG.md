@@ -240,3 +240,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 20:44:05`: data(curation): collect viral social infrastructure claims on Padma bridge
 - `2026-09-23 20:53:09`: annotation: compute Cohen's kappa agreement statistic across annotators
 - `2026-09-23 21:15:24`: data(normalizer): add Dari and double-dari punctuation standardization
+- `2026-09-23 21:48:45`: annotation: conduct structured adjudication for borderline misleading claims
