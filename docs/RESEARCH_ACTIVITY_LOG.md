@@ -258,3 +258,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-24 16:09:05`: robustness(banglish): build phonetic rule-based transliteration engine
 - `2026-09-24 16:10:08`: docs(thesis): compile comprehensive thesis defense Q&A preparation
 - `2026-09-24 16:57:11`: data(curation): audit financial inflation rumors against central bank data
+- `2026-09-24 17:08:16`: models(llm): test few-shot chain-of-verification templates in Bengali
