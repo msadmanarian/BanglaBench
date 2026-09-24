@@ -268,3 +268,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-24 20:52:47`: docs(paper): draft Section 3 dataset collection and annotation rigor
 - `2026-09-24 21:32:03`: retrieval(rag): test uncertainty thresholding when evidence is absent
 - `2026-09-24 21:45:14`: data(dedup): run character 3-gram Jaccard deduplication audit
+- `2026-09-24 21:51:49`: data(normalizer): refine Unicode NFC normalization for Bengali conjuncts
