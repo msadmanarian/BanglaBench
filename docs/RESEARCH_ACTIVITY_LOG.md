@@ -248,3 +248,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-24 12:31:24`: models(baseline): configure Multinomial Naive Bayes with word+char n-grams
 - `2026-09-24 12:45:42`: analysis(temporal): measure concept drift on post-2023 claim evaluation
 - `2026-09-24 14:05:51`: models(llm): add fallback parser for non-conforming markdown fences
+- `2026-09-24 14:38:46`: data(curation): sample sci-tech claims regarding SPARSO satellite launch
