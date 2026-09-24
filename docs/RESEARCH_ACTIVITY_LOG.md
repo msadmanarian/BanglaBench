@@ -250,3 +250,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-24 14:05:51`: models(llm): add fallback parser for non-conforming markdown fences
 - `2026-09-24 14:38:46`: data(curation): sample sci-tech claims regarding SPARSO satellite launch
 - `2026-09-24 15:00:53`: robustness(codemix): construct English-Bengali digital loanword dictionary
+- `2026-09-24 15:29:58`: data(normalizer): handle zero-width joiner (ZWJ) stripping consistently
