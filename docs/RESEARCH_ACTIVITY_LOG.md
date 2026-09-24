@@ -246,3 +246,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-24 09:20:17`: docs(paper): draft Section 7 limitations and ethical considerations
 - `2026-09-24 10:03:31`: data(curation): sample viral political claims from public media archives
 - `2026-09-24 12:31:24`: models(baseline): configure Multinomial Naive Bayes with word+char n-grams
+- `2026-09-24 12:45:42`: analysis(temporal): measure concept drift on post-2023 claim evaluation
