@@ -263,3 +263,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-24 18:15:29`: retrieval(bm25): implement native Okapi BM25 passage indexation
 - `2026-09-24 18:19:21`: robustness(unicode): add non-normalized vowel sign perturbation logic
 - `2026-09-24 18:49:17`: robustness(defense): benchmark +126.8% F1 recovery under phonetic defense
+- `2026-09-24 18:58:16`: data(schema): validate claims against 5-class taxonomic JSON schema
