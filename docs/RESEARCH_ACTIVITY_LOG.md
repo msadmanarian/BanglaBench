@@ -252,3 +252,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-24 15:00:53`: robustness(codemix): construct English-Bengali digital loanword dictionary
 - `2026-09-24 15:29:58`: data(normalizer): handle zero-width joiner (ZWJ) stripping consistently
 - `2026-09-24 15:38:39`: repro: run automated quality audit script with zero errors
+- `2026-09-24 15:39:01`: docs(paper): compile unified publication manuscript in paper.md
