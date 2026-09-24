@@ -242,3 +242,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-23 21:15:24`: data(normalizer): add Dari and double-dari punctuation standardization
 - `2026-09-23 21:48:45`: annotation: conduct structured adjudication for borderline misleading claims
 - `2026-09-23 21:49:04`: robustness(eval): evaluate model resilience across 72 perturbed instances
+- `2026-09-24 09:06:31`: models(baseline): implement Linear SVM with calibrated decision margins
