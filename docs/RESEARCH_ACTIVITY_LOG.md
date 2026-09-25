@@ -292,3 +292,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 17:04:49`: retrieval(bm25): optimize document frequency thresholds for Bengali tokens
 - `2026-09-25 18:37:29`: models(llm): implement zero-shot structured JSON verification prompt
 - `2026-09-25 18:49:52`: viz: generate Figure 3 adversarial robustness drop matrix
+- `2026-09-25 18:52:37`: annotation: document adjudication protocols in 05_Annotation directory
