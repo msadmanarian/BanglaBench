@@ -282,3 +282,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 12:43:00`: viz: generate Figure 2 cross-split generalization comparison charts
 - `2026-09-25 13:04:52`: docs(thesis): compile comprehensive thesis defense Q&A preparation
 - `2026-09-25 13:13:06`: viz: generate Figure 5 ERASER explanation faithfulness bar charts
+- `2026-09-25 13:22:23`: docs(paper): draft Section 5 empirical results and breakdown
