@@ -274,3 +274,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 09:31:44`: models(transformers): configure MuRIL multilingual Indic model checkpointing
 - `2026-09-25 10:50:06`: retrieval(rag): build end-to-end evidence citation generator
 - `2026-09-25 10:57:54`: annotation: log dual independent annotations for batch 5 (sci-tech)
+- `2026-09-25 11:09:50`: data(normalizer): add Dari and double-dari punctuation standardization
