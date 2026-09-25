@@ -275,3 +275,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 10:50:06`: retrieval(rag): build end-to-end evidence citation generator
 - `2026-09-25 10:57:54`: annotation: log dual independent annotations for batch 5 (sci-tech)
 - `2026-09-25 11:09:50`: data(normalizer): add Dari and double-dari punctuation standardization
+- `2026-09-25 11:36:22`: docs(cards): complete model cards for Linear SVM and RAG verifier
