@@ -294,3 +294,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 18:49:52`: viz: generate Figure 3 adversarial robustness drop matrix
 - `2026-09-25 18:52:37`: annotation: document adjudication protocols in 05_Annotation directory
 - `2026-09-25 19:20:20`: annotation: conduct structured adjudication for borderline misleading claims
+- `2026-09-25 19:21:53`: data(normalizer): handle zero-width joiner (ZWJ) stripping consistently
