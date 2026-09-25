@@ -284,3 +284,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 13:13:06`: viz: generate Figure 5 ERASER explanation faithfulness bar charts
 - `2026-09-25 13:22:23`: docs(paper): draft Section 5 empirical results and breakdown
 - `2026-09-25 14:18:45`: data(audit): verify zero ID leakage across all train-test partition pairs
+- `2026-09-25 14:19:27`: annotation: log dual independent annotations for batch 3 (finance)
