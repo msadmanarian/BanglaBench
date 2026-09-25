@@ -288,3 +288,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 15:17:46`: retrieval(hybrid): interpolate BM25 sparse scores with dense projections
 - `2026-09-25 15:24:41`: annotation: update annotation guidelines with detailed exclusion criteria
 - `2026-09-25 15:46:39`: docs(paper): draft Section 1 introduction and research motivation
+- `2026-09-25 16:56:58`: robustness(banglish): build phonetic rule-based transliteration engine
