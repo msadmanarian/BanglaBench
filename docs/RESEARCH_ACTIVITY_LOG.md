@@ -279,3 +279,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 11:47:27`: eval(faithfulness): analyze rationale prediction retention rates
 - `2026-09-25 11:51:04`: docs(paper): compile unified publication manuscript in paper.md
 - `2026-09-25 12:24:41`: robustness(eval): evaluate model resilience across 72 perturbed instances
+- `2026-09-25 12:43:00`: viz: generate Figure 2 cross-split generalization comparison charts
