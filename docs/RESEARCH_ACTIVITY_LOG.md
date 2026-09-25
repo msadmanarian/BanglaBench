@@ -290,3 +290,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 15:46:39`: docs(paper): draft Section 1 introduction and research motivation
 - `2026-09-25 16:56:58`: robustness(banglish): build phonetic rule-based transliteration engine
 - `2026-09-25 17:04:49`: retrieval(bm25): optimize document frequency thresholds for Bengali tokens
+- `2026-09-25 18:37:29`: models(llm): implement zero-shot structured JSON verification prompt
