@@ -297,3 +297,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 19:21:53`: data(normalizer): handle zero-width joiner (ZWJ) stripping consistently
 - `2026-09-25 19:36:17`: robustness(typo): implement keyboard-adjacent character swap generator
 - `2026-09-25 20:25:15`: repro: verify one-command reproduction script run_all.sh
+- `2026-09-25 20:33:29`: eval(stats): generate 1000-iteration bootstrap 95% confidence intervals
