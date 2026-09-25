@@ -277,3 +277,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 11:09:50`: data(normalizer): add Dari and double-dari punctuation standardization
 - `2026-09-25 11:36:22`: docs(cards): complete model cards for Linear SVM and RAG verifier
 - `2026-09-25 11:47:27`: eval(faithfulness): analyze rationale prediction retention rates
+- `2026-09-25 11:51:04`: docs(paper): compile unified publication manuscript in paper.md
