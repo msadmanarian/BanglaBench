@@ -301,3 +301,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 20:56:39`: docs(paper): draft Section 2 systematic literature review and gap
 - `2026-09-25 21:15:24`: models(transformers): scaffold BanglaBERT electra-discriminator training graph
 - `2026-09-25 21:45:01`: eval(metrics): implement Expected Calibration Error (ECE) with 10 bins
+- `2026-09-25 21:52:54`: models(baseline): audit Linear SVM majority class prediction bias
