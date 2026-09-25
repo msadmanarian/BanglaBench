@@ -286,3 +286,4 @@ Chronological record of automated experiments, annotations, benchmarks, and rese
 - `2026-09-25 14:18:45`: data(audit): verify zero ID leakage across all train-test partition pairs
 - `2026-09-25 14:19:27`: annotation: log dual independent annotations for batch 3 (finance)
 - `2026-09-25 15:17:46`: retrieval(hybrid): interpolate BM25 sparse scores with dense projections
+- `2026-09-25 15:24:41`: annotation: update annotation guidelines with detailed exclusion criteria
