@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, dataset, or code, please cite it as below."
+authors:
+  - name: "Autonomous Academic Research Agent (Antigravity)"
+    affiliation: "American International University-Bangladesh (AIUB) Computing Curriculum Grounding"
+title: "BanglaFactBench: A Multi-Domain Benchmark for Misinformation Detection, Claim Verification, and Adversarial Robustness in Bengali"
+version: 1.0.0
+date-released: 2026-09-26
+url: "https://github.com/banglafactbench/BanglaFactBench"
+keywords:
+  - "Bengali NLP"
+  - "Fact Verification"
+  - "Misinformation Detection"
+  - "Adversarial Robustness"
+  - "Retrieval-Augmented Generation"
+  - "Explanation Faithfulness"
+  - "Low-Resource Benchmarking"
+license: MIT

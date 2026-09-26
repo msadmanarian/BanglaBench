@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BanglaFactBenchClaimRecord",
+  "description": "Standardized schema for atomic claim records in BanglaFactBench",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "claim_text_bn",
+    "claim_text_normalized",
+    "domain",
+    "source_type",
+    "source_name",
+    "source_url",
+    "publication_date",
+    "claim_date",
+    "language",
+    "language_variant",
+    "context",
+    "evidence_urls",
+    "evidence_text",
+    "label",
+    "confidence",
+    "adjudicated_label"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "description": "Unique identifier for the claim (e.g., BFB-CLM-0001)",
+      "pattern": "^BFB-[A-Z]{3,4}-[0-9]{4,6}$"
+    },
+    "claim_text_bn": {
+      "type": "string",
+      "description": "The verbatim claim text in original Bengali or Romanized Banglish",
+      "minLength": 5
+    },
+    "claim_text_normalized": {
+      "type": "string",
+      "description": "Unicode NFC-normalized claim text with standardized punctuation and whitespaces"
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "politics",
+        "health",
+        "finance",
+        "disaster",
+        "sci_tech",
+        "social"
+      ],
+      "description": "Topical domain of the claim"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "social_media",
+        "news_portal",
+        "press_release",
+        "public_speech",
+        "fact_check_archive"
+      ],
+      "description": "Type of digital medium where the claim originated"
+    },
+    "source_name": {
+      "type": "string",
+      "description": "Name of the publisher, platform, or fact-checking organization"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the primary source or fact-check archive"
+    },
+    "publication_date": {
+      "type": "string",
+      "description": "Date of publication or fact-check report (YYYY-MM-DD)",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "claim_date": {
+      "type": "string",
+      "description": "Estimated date the claim began circulating (YYYY-MM-DD)",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["bn", "en", "mixed"],
+      "description": "Primary language of the claim text"
+    },
+    "language_variant": {
+      "type": "string",
+      "enum": [
+        "standard_bengali",
+        "colloquial_bengali",
+        "banglish",
+        "code_mixed"
+      ],
+      "description": "Linguistic style or script representation of the claim"
+    },
+    "speaker_or_author_if_public": {
+      "type": "string",
+      "description": "Name of public figure or official institution claiming the statement (redacted if private individual)"
+    },
+    "context": {
+      "type": "string",
+      "description": "Concise background context necessary to interpret the claim"
+    },
+    "evidence_urls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "description": "List of authoritative reference URLs corroborating or refuting the claim"
+    },
+    "evidence_text": {
+      "type": "string",
+      "description": "Excerpts of verified factual evidence directly supporting or refuting the claim"
+    },
+    "label": {
+      "type": "string",
+      "enum": [
+        "SUPPORTED",
+        "REFUTED",
+        "UNVERIFIABLE",
+        "MISLEADING",
+        "OPINION"
+      ],
+      "description": "Ground truth veracity label"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Annotator consensus or evidence certainty score"
+    },
+    "annotation_notes": {
+      "type": "string",
+      "description": "Justification notes explaining the rationale for label assignment"
+    },
+    "annotator_1": {
+      "type": "string",
+      "description": "Anonymized identifier for Annotator 1"
+    },
+    "annotator_2": {
+      "type": "string",
+      "description": "Anonymized identifier for Annotator 2"
+    },
+    "adjudicated_label": {
+      "type": "string",
+      "enum": [
+        "SUPPORTED",
+        "REFUTED",
+        "UNVERIFIABLE",
+        "MISLEADING",
+        "OPINION"
+      ],
+      "description": "Final resolved label assigned following expert adjudication"
+    }
+  }
+}
