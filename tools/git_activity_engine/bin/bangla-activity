@@ -1,0 +1,131 @@
+#!/usr/bin/env bash
+# =====================================================================
+# BanglaBench Git Activity & Contribution CLI
+# Software-grade history and contribution management engine for Git Bash
+# =====================================================================
+
+set -e
+
+# Resolve base directories
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ENGINE_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+REPO_ROOT="$(cd "$ENGINE_ROOT/../.." && pwd)"
+
+cd "$REPO_ROOT"
+
+# Load Configuration
+CONF_FILE="$ENGINE_ROOT/configs/activity_profile.conf"
+if [ -f "$CONF_FILE" ]; then
+  # shellcheck source=/dev/null
+  source "$CONF_FILE"
+else
+  DAYS_BACK=60
+  MIN_COMMITS_PER_DAY=1
+  MAX_COMMITS_PER_DAY=3
+  WEEKEND_ACTIVITY_PROB=40
+  WEEKDAY_ACTIVITY_PROB=80
+  TARGET_BRANCH="main"
+  ACTIVITY_FILE="docs/RESEARCH_ACTIVITY_LOG.md"
+  AUTHOR_NAME="msadmanarian"
+  AUTHOR_EMAIL="msadmanarian@gmail.com"
+fi
+
+# Load Engine Modules
+# shellcheck source=/dev/null
+source "$ENGINE_ROOT/lib/messages.sh"
+# shellcheck source=/dev/null
+source "$ENGINE_ROOT/lib/calendar.sh"
+# shellcheck source=/dev/null
+source "$ENGINE_ROOT/lib/preview.sh"
+# shellcheck source=/dev/null
+source "$ENGINE_ROOT/lib/generator.sh"
+# shellcheck source=/dev/null
+source "$ENGINE_ROOT/lib/safety.sh"
+
+usage() {
+  echo "================================================================="
+  echo "      BANGLABENCH GIT CONTRIBUTION & ACTIVITY ENGINE (CLI)       "
+  echo "================================================================="
+  echo "Usage: ./tools/git_activity_engine/bin/bangla-activity <command> [options]"
+  echo ""
+  echo "Commands:"
+  echo "  preview     Preview planned backdated commit schedule (dry-run)"
+  echo "  generate    Execute authentic backdated commits into activity journal"
+  echo "  status      Inspect current branch, last checkpoint, and commit metrics"
+  echo "  undo        Rollback the last commit batch using recorded checkpoint"
+  echo "  push        Safely push generated commits to GitHub remote origin"
+  echo "  help        Display this help message"
+  echo ""
+  echo "Options (can override config):"
+  echo "  --days <N>         Set days back horizon (default: $DAYS_BACK)"
+  echo "  --min <N>          Minimum commits per active day (default: $MIN_COMMITS_PER_DAY)"
+  echo "  --max <N>          Maximum commits per active day (default: $MAX_COMMITS_PER_DAY)"
+  echo "  --file <path>      Target journal file (default: $ACTIVITY_FILE)"
+  echo "================================================================="
+}
+
+COMMAND=$1
+shift || true
+
+# Parse flags
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    --days)
+      DAYS_BACK="$2"
+      shift 2
+      ;;
+    --min)
+      MIN_COMMITS_PER_DAY="$2"
+      shift 2
+      ;;
+    --max)
+      MAX_COMMITS_PER_DAY="$2"
+      shift 2
+      ;;
+    --file)
+      ACTIVITY_FILE="$2"
+      shift 2
+      ;;
+    *)
+      shift
+      ;;
+  esac
+done
+
+case "$COMMAND" in
+  preview)
+    render_preview "$DAYS_BACK" "$WEEKDAY_ACTIVITY_PROB" "$WEEKEND_ACTIVITY_PROB" "$MIN_COMMITS_PER_DAY" "$MAX_COMMITS_PER_DAY"
+    ;;
+  generate)
+    check_working_directory
+    execute_generation "$DAYS_BACK" "$WEEKDAY_ACTIVITY_PROB" "$WEEKEND_ACTIVITY_PROB" "$MIN_COMMITS_PER_DAY" "$MAX_COMMITS_PER_DAY"
+    ;;
+  status)
+    echo "================================================================="
+    echo "Current Branch : $(git rev-parse --abbrev-ref HEAD)"
+    echo "Current HEAD   : $(git rev-parse HEAD)"
+    echo "Total Commits  : $(git rev-list --count HEAD)"
+    local_checkpoint="$ENGINE_ROOT/storage/.last_checkpoint"
+    if [ -f "$local_checkpoint" ]; then
+      echo "Last Checkpoint: $(cat "$local_checkpoint")"
+    else
+      echo "Last Checkpoint: None recorded"
+    fi
+    echo "Remote Origin  : $(git remote get-url origin 2>/dev/null || echo 'Not configured')"
+    echo "================================================================="
+    ;;
+  undo)
+    rollback_last_generation
+    ;;
+  push)
+    push_to_remote
+    ;;
+  help|--help|-h|"")
+    usage
+    ;;
+  *)
+    echo "Unknown command: $COMMAND"
+    usage
+    exit 1
+    ;;
+esac
