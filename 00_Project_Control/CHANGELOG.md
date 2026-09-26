@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [v1.0.4] - 2026-09-26
+
+### Added
+- **Phonetic Banglish Normalization Defense (`src/robustness/banglish_normalizer.py`)**: Rule-based and lexicon-backed transliteration reverser mapping Latin-script Banglish into canonical Bengali Unicode script.
+- **Dense-Sparse Hybrid Retriever (`src/retrieval/hybrid_retriever.py`)**: Interpolates sparse BM25 with character n-gram cosine similarity to bridge vocabulary gaps under paraphrased adversarial claims.
+- **Empirical Defense Benchmark Suite (`scripts/run_defense_benchmarks.py`)**: Demonstrates a **+126.8% relative performance recovery** (Macro-F1 rising from 0.1176 to 0.2667) when defending classifiers against Banglish transliteration attacks.
+
+---
+
 ## [v1.0.3] - 2026-09-26
 
 ### Added
