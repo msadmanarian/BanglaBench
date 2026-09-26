@@ -45,7 +45,7 @@ class BenchmarkMetrics:
         }
 
     @classmethod
-    def compute_ece(cls, true_labels: List[str], probs: np.ndarray, n_bins: int = 10) -> float:
+    def compute_ece(cls, true_labels: List[str], probs: np.ndarray, n_bins: int = 10, classes: List[str] = None) -> float:
         """
         Computes Expected Calibration Error (ECE) following Guo et al. (ICML 2017).
         ECE = sum_{m=1}^M (|B_m| / N) * |acc(B_m) - conf(B_m)|
@@ -54,7 +54,8 @@ class BenchmarkMetrics:
         if N == 0:
             return 0.0
 
-        class_to_idx = {c: i for i, c in enumerate(cls.CLASSES)}
+        target_classes = classes if classes is not None else cls.CLASSES
+        class_to_idx = {c: i for i, c in enumerate(target_classes)}
         true_indices = np.array([class_to_idx.get(lbl, 0) for lbl in true_labels])
 
         confidences = np.max(probs, axis=1)
@@ -79,7 +80,7 @@ class BenchmarkMetrics:
         return round(float(ece), 4)
 
     @classmethod
-    def compute_brier_score(cls, true_labels: List[str], probs: np.ndarray) -> float:
+    def compute_brier_score(cls, true_labels: List[str], probs: np.ndarray, classes: List[str] = None) -> float:
         """
         Computes multi-class Brier score: mean squared difference between predicted probabilities
         and one-hot true indicators.
@@ -88,8 +89,9 @@ class BenchmarkMetrics:
         if N == 0:
             return 0.0
 
-        class_to_idx = {c: i for i, c in enumerate(cls.CLASSES)}
-        k = len(cls.CLASSES)
+        target_classes = classes if classes is not None else cls.CLASSES
+        class_to_idx = {c: i for i, c in enumerate(target_classes)}
+        k = len(target_classes)
         one_hot = np.zeros((N, k))
         for i, lbl in enumerate(true_labels):
             if lbl in class_to_idx:

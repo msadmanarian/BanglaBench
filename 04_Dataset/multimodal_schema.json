@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BanglaFactBench Multimodal Claim Verification Schema",
+  "description": "Specification for multimodal claims including digital posters, political memes, and edited photo claims",
+  "type": "object",
+  "properties": {
+    "claim_id": { "type": "string" },
+    "claim_text_bn": { "type": "string" },
+    "media_type": {
+      "type": "string",
+      "enum": ["image_meme", "edited_poster", "fabricated_headline_screenshot", "infographic", "video_clip"]
+    },
+    "image_url": { "type": "string" },
+    "ocr_extracted_text": { "type": "string" },
+    "visual_claim_summary": { "type": "string" },
+    "manipulation_type": {
+      "type": "string",
+      "enum": ["out_of_context", "photoshop_altered", "fabricated_caption", "authentic_visual", "deepfake_synthetic"]
+    },
+    "reverse_image_search_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "first_seen_date": { "type": "string" },
+          "original_source_url": { "type": "string" },
+          "original_caption": { "type": "string" }
+        }
+      }
+    },
+    "adjudicated_label": {
+      "type": "string",
+      "enum": ["SUPPORTED", "REFUTED", "UNVERIFIABLE", "MISLEADING", "OPINION"]
+    }
+  },
+  "required": ["claim_id", "media_type", "visual_claim_summary", "adjudicated_label"]
+}

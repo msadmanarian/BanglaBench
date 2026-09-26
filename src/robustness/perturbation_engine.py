@@ -213,6 +213,22 @@ class BengaliPerturbationEngine:
             "levenshtein_distance": dist
         }
 
+    def generate_all_perturbations(self, claim_input) -> List[Dict]:
+        """
+        Generates all 6 controlled linguistic transformations for an input text or claim record.
+        """
+        if isinstance(claim_input, str):
+            record = {
+                "claim_id": "DYNAMIC-TEST",
+                "claim_text_normalized": claim_input,
+                "adjudicated_label": "UNVERIFIED",
+                "domain": "general"
+            }
+        else:
+            record = claim_input
+        types = ["typo", "unicode_variation", "banglish_transliteration", "code_mixing", "paraphrase", "adversarial_wording"]
+        return [self.transform_claim(record, t) for t in types]
+
 
 if __name__ == '__main__':
     import sys

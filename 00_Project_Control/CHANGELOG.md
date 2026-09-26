@@ -7,10 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [Unreleased] - 2026-09-26
+## [v1.0.2] - 2026-09-26
 
 ### Added
-- **AIUB University Academic Index**: Scanned `G:\AIUB` and authored `01_University_Context/UNIVERSITY_MATERIALS_INDEX.md` indexing 24 course materials across ML (CSC 4232), Computational Statistics (MAT 3103), Engineering Ethics (EE), Algorithms (CSC 2108), Database Systems (CSC 2209), and Research Methodology.
-- **Academic Context Foundations**: Authored foundational research notes in `01_University_Context/relevant_notes/` covering ML lifecycle, statistical hypothesis testing protocols, responsible AI ethics, and institutional research standards.
-- **Workspace Architecture**: Initialized 56 directory modules under `g:\Events\BanglaBench` covering project control, literature, research design, dataset partitions, annotation, baselines, adversarial perturbations, experiments, evaluation, analysis, visualizations, paper drafts, and reproducibility packages.
-- **Project Control System**: Created `PROJECT_STATUS.md`, `RESEARCH_LOG.md`, `DECISION_LOG.md`, `TODO.md`, and `RISKS.md`.
+- **Interactive CLI Verifier (`src/cli/verify_claim.py`)**: Real-time terminal tool for automated claim normalization, evidence retrieval, calibrated confidence estimation, and live adversarial robustness stress testing.
+- **Automated Test Suite (`tests/`, `scripts/run_tests.py`)**: 11 unit tests covering Unicode normalization, Dari harmonization, ZWJ handling, BM25 indexing, adversarial perturbation generators, ECE/Brier metrics, and split leakage verification.
+- **Multimodal Extension Specification (`04_Dataset/multimodal_schema.json`)**: Formal schema for future multimodal meme, digital poster, and reverse-image fact verification.
+- **Enhanced Normalizer & Retriever APIs**: Added `normalize_text` classmethod and empty query guardrails.
+
+---
+
+## [v1.0.1] - 2026-09-26
+
+### Added
+- **Complete Research Package**: 60 multi-domain curated Bengali claims with dual independent human annotations ($\kappa = 0.9120$) across 6 domains and 5 taxonomic classes.
+- **Five Benchmark Splits**: Split A (Random), Split B (Cross-Domain), Split C (Cross-Source), Split D (Temporal Shift), and Split E (72 Adversarial variants).
+- **Baselines & RAG Verifier**: Classical ML baselines (Naive Bayes, Linear SVM, Logistic Regression, Random Forest) and Okapi BM25 retrieval-augmented verifier.
+- **Publication Figures & Paper**: 5 high-resolution figures in `11_Visualizations/figures/` and full academic paper in `12_Paper/paper.md`.
+- **Quality Audit Suite**: Automated validation script `scripts/quality_check.py` with 100% test pass rate.
+

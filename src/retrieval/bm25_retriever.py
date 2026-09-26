@@ -58,6 +58,8 @@ class BM25Retriever:
         Scores all indexed documents against query and returns top_k results.
         """
         query_tokens = self.tokenize(query)
+        if not query_tokens:
+            return []
         scores = [0.0] * self.corpus_size
 
         for q in query_tokens:

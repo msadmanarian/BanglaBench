@@ -25,6 +25,10 @@ class BengaliTextNormalizer:
     def __init__(self, remove_zwj: bool = False):
         self.remove_zwj = remove_zwj
 
+    @classmethod
+    def normalize_text(cls, text: str, remove_zwj: bool = False) -> str:
+        return cls(remove_zwj=remove_zwj).normalize(text)
+
     def normalize(self, text: str) -> str:
         if not text:
             return ""
