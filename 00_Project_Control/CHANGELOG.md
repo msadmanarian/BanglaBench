@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [v1.0.3] - 2026-09-26
+
+### Added
+- **Transformer Fine-Tuning Pipeline (`src/models/transformer_classifier.py`, `scripts/train_transformer.py`)**: Complete training harness for state-of-the-art Bengali and multilingual transformer architectures (`csebuetnlp/banglabert`, `xlm-roberta-base`, `google/muril-base-cased`).
+- **Controlled LLM Evaluator (`src/models/llm_evaluator.py`)**: Zero-shot and few-shot prompt templates for LLM verification producing structured, auditable JSON verdicts without hidden chain-of-thought.
+- **YAML Experiment Configurations (`configs/`)**: Added production configurations for BanglaBERT, XLM-RoBERTa, MuRIL, and LLM few-shot verification.
+
+---
+
 ## [v1.0.2] - 2026-09-26
 
 ### Added

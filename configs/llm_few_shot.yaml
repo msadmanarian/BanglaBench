@@ -1,0 +1,21 @@
+# BanglaFactBench Configuration: Few-Shot LLM Evaluation
+experiment_name: "llm_few_shot_claim_verification"
+evaluation:
+  prompting_strategy: "few_shot_chain_of_verification"
+  num_exemplars: 3
+  temperature: 0.1
+  max_output_tokens: 256
+  output_format: "json"
+  target_classes:
+    - "SUPPORTED"
+    - "REFUTED"
+    - "UNVERIFIABLE"
+    - "MISLEADING"
+    - "OPINION"
+data:
+  splits:
+    - "split_a_random"
+    - "split_b_cross_domain"
+    - "split_c_cross_source"
+    - "split_d_temporal"
+    - "split_e_adversarial"

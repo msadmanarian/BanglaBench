@@ -1,0 +1,29 @@
+# BanglaFactBench Configuration: MuRIL (google/muril-base-cased)
+experiment_name: "muril_fact_verification"
+model:
+  name: "google/muril-base-cased"
+  architecture: "bert"
+  language: "indic-multilingual"
+  max_length: 128
+  num_labels: 5
+training:
+  epochs: 5
+  batch_size: 16
+  learning_rate: 2.0e-5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  fp16: true
+  seed: 42
+data:
+  splits:
+    - "split_a_random"
+    - "split_b_cross_domain"
+    - "split_c_cross_source"
+    - "split_d_temporal"
+    - "split_e_adversarial"
+evaluation:
+  metrics:
+    - "macro_f1"
+    - "accuracy"
+    - "ece"
+    - "brier_score"
