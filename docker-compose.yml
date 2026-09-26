@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  banglafactbench:
+    build: .
+    container_name: banglafactbench_app
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [v1.0.5] - 2026-09-26
+
+### Added
+- **Interactive Web Verification Dashboard (`app.py`)**: Zero-external-dependency web application with Bengali typography, live claim verification, cited evidence passage rendering, and real-time adversarial stress testing.
+- **Docker Containerization (`Dockerfile`, `docker-compose.yml`, `.dockerignore`)**: Production container setup for one-command deployment across local or cloud servers.
+- **GitHub Actions CI/CD Pipeline (`.github/workflows/ci.yml`)**: Automated continuous integration running the test suite, dataset integrity validation, and defense benchmark audits.
+- **Comprehensive Benchmark Release**: Full milestone progression from v1.0.1 through v1.0.5 pushed to GitHub.
+
+---
+
 ## [v1.0.4] - 2026-09-26
 
 ### Added

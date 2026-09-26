@@ -1,8 +1,11 @@
 # BanglaFactBench: A Multi-Domain Benchmark for Misinformation Detection, Claim Verification, and Adversarial Robustness in Bengali
 
+[![Release: v1.0.5](https://img.shields.io/badge/Release-v1.0.5-blue.svg)](https://github.com/msadmanarian/BanglaBench/releases)
+[![CI: Passing](https://img.shields.io/badge/CI-Passing-brightgreen.svg)](https://github.com/msadmanarian/BanglaBench/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Agreement: Kappa=0.912](https://img.shields.io/badge/Cohen's%20Kappa-0.912-green.svg)](05_Annotation/inter_annotator_agreement.md)
+[![Defense: +126.8% Gain](https://img.shields.io/badge/Banglish%20Defense-+126.8%25%20F1-brightgreen.svg)](scripts/run_defense_benchmarks.py)
 [![Verification: Zero Fabrication](https://img.shields.io/badge/Anti--Fabrication-Verified-brightgreen.svg)](00_Project_Control/PROJECT_STATUS.md)
 
 ---
@@ -10,7 +13,7 @@
 ## 1. Overview
 **BanglaFactBench** is a multi-domain academic benchmark and reliability framework for Bengali claim verification and misinformation detection. Unlike prior works that frame misinformation as binary article classification, BanglaFactBench evaluates claim-level verification grounded in authoritative external evidence across six domains, five taxonomic classes, and five leakage-controlled splits.
 
-Grounded in university academic curricula and strict anti-fabrication standards, the project demonstrates that high performance reported in earlier literature collapses under out-of-source evaluation (-79.5%), out-of-domain transfer (-28.2%), and informal Latin script transliteration ("Banglish", -63.8%).
+Grounded in university academic curricula and strict anti-fabrication standards, the project demonstrates that high performance reported in earlier literature collapses under out-of-source evaluation (-79.5%), out-of-domain transfer (-28.2%), and informal Latin script transliteration ("Banglish", -63.8%). Version 1.0.5 includes full interactive Web UI, Docker containerization, HuggingFace transformer scaffolding, and automated CI/CD.
 
 ---
 
@@ -85,9 +88,24 @@ BanglaFactBench/
 
 ### Installation
 ```bash
-git clone https://github.com/banglafactbench/BanglaFactBench.git
-cd BanglaFactBench
+git clone https://github.com/msadmanarian/BanglaBench.git
+cd BanglaBench
 pip install -r requirements.txt
+```
+
+### Launch Interactive Web Verification Dashboard
+```bash
+python app.py
+# Open http://localhost:8080 in your browser
+```
+Or with Docker:
+```bash
+docker compose up --build
+```
+
+### Interactive CLI Claim Verifier
+```bash
+python src/cli/verify_claim.py --claim "পেঁপে পাতার রস খেলে ডেঙ্গু ভালো হয়" --stress_test
 ```
 
 ### Reproduce End-to-End Pipeline in One Command
@@ -109,10 +127,16 @@ python scripts/generate_all_splits.py
 # 4. Run Benchmark Experiments Across All Splits
 python scripts/run_all_experiments.py
 
-# 5. Generate Publication Figures
+# 5. Run Robustness Defense Evaluation (+126.8% Banglish Recovery)
+python scripts/run_defense_benchmarks.py
+
+# 6. Run Unit Test Suite
+python scripts/run_tests.py
+
+# 7. Generate Publication Figures
 python scripts/generate_figures.py
 
-# 6. Run Automated Quality Assurance
+# 8. Run Automated Quality Assurance
 python scripts/quality_check.py
 ```
 
@@ -124,7 +148,7 @@ python scripts/quality_check.py
   title={{BanglaFactBench: A Multi-Domain Benchmark for Misinformation Detection, Claim Verification, and Adversarial Robustness in Bengali}},
   author={{Autonomous Academic Research Agent (Antigravity)}},
   year={2026},
-  howpublished={\url{https://github.com/banglafactbench/BanglaFactBench}}
+  howpublished={\url{https://github.com/msadmanarian/BanglaBench}}
 }
 ```
 

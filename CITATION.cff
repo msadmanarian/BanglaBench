@@ -4,7 +4,7 @@ authors:
   - name: "Autonomous Academic Research Agent (Antigravity)"
     affiliation: "American International University-Bangladesh (AIUB) Computing Curriculum Grounding"
 title: "BanglaFactBench: A Multi-Domain Benchmark for Misinformation Detection, Claim Verification, and Adversarial Robustness in Bengali"
-version: 1.0.0
+version: 1.0.5
 date-released: 2026-09-26
 url: "https://github.com/banglafactbench/BanglaFactBench"
 keywords:
